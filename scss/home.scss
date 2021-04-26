@@ -1,0 +1,81 @@
+@import 'variables.scss';
+@import 'projects.scss';
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+// HOME PAGE
+
+.projects {
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.project-container {
+    display: $flex;
+    justify-content: center;
+    margin-top: 25px;
+    flex-flow: row nowrap;
+
+    &__card-main {
+        @include sizes(500px, auto );
+        border: 1px solid plum;
+        padding: 5px;
+        text-align: center;
+
+        a {
+            color: palevioletred;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: plum;
+            text-decoration: underline;
+        }
+
+        .proj-img-cont1 {
+            background-image: url(../img/weather-react-app.png);
+        }
+
+        .proj-img-cont2 {
+            background-image: url(../img/memory-game.png);
+        }
+
+        .proj-img-cont3 {
+            background-image: url(../img/landing-project.png);
+        }
+
+        .cards {
+           @include sizes(500px, 500px);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    }
+
+}
+#cardOne,
+#cardTwo {
+    margin-right: 20px;
+}
+
+.container-btn {
+    @extend .btn;
+    margin-top: 20px !important;
+
+    &__btn-all {
+            border: none;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+    }
+
+    &__btn-all:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,73 @@
+@import 'variables.scss';
+
+// SKILL PAGE
+
+.skill-table {
+    width: 70%;
+    height: 57.4vh;
+    box-sizing: border-box;
+    font-family: $font-secundary;
+    margin: 0 auto;
+
+
+ h2 {
+    font-family: $font-principal;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 20px;
+}
+}
+.skill-container {
+    width: 100%;
+    background-color: #ddd;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    .bar {
+        animation: bar 4s ease;
+    }
+
+}
+
+@keyframes bar {
+    from {
+        width: 0;
+    }
+}
+
+.html-bar {
+    width: 80%;
+    background-color: $rgb-btn;
+}
+
+.css-bar,
+.javascript-bar {
+    width: 70%;
+    background-color: $rgb-btn;
+}
+
+.react-bar,
+.sass-bar {
+    width: 30%;
+    background-color: $rgb-btn;
+}
+
+.api-bar {
+    width: 50%;
+    background-color: $rgb-btn;
+}
+
+.bootstrap-bar,
+.wordpress-bar {
+    width: 60%;
+    background-color: $rgb-btn;
+}

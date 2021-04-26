@@ -1,0 +1,67 @@
+@import 'variables.scss';
+
+// PROJECTS PAGE
+
+.projects-container {
+    display: $flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+    &__card {
+        font-family: sans-serif;
+        width: 25%;
+        height: 500px;
+        margin-bottom: 10px;
+        text-align: center;
+        border: 1px solid plum;
+        padding: 5px;
+
+        h3,
+        p {
+            margin-top: 10px;
+        }
+
+        a {
+            color: palevioletred;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: plum;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 70%;
+        }
+    }
+}
+
+.btn{
+    width: 200px;
+    height: 20px;
+    background-color: $rgb-btn;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: $font-secundary;
+    font-weight: bold;
+    border: 1px solid $rgb-btn;
+
+    &__github{
+        border: none;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    &__github:hover{
+        text-decoration: underline;
+    }
+}

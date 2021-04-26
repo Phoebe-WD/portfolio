@@ -1,0 +1,63 @@
+@import 'variables.scss';
+@import 'projects.scss';
+
+// CONTACT PAGE
+
+.contact-form {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 80px;
+
+}
+
+.contact-title {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#contact-form {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    font-family: monospace;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    padding: 5px;
+    border-color: rgba(32, 178, 171, 0.795);
+}
+
+input[type=submit],
+input[type=reset] {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background-color: lightseagreen;
+    border: 1px solid snow;
+    border-radius: 5px;
+    color: white;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: rgba(32, 178, 171, 0.795);
+}

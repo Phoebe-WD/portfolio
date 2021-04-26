@@ -1,0 +1,847 @@
+.head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px 0;
+  height: 5vh; }
+  .head__name {
+    color: black;
+    font-size: 45px;
+    letter-spacing: 5px; }
+  .head__logo {
+    width: 100px;
+    height: auto;
+    cursor: pointer; }
+  .head__nav-bar {
+    display: flex; }
+  .head__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center; }
+  .head__item {
+    justify-content: space-between;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-weight: bold; }
+    .head__item a {
+      color: lightseagreen;
+      text-decoration: none;
+      transition: font-size 0.5s; }
+    .head__item a:hover {
+      text-decoration: underline;
+      color: #00FFFF;
+      font-size: 35px; }
+
+.footer {
+  background-color: lightseagreen; }
+  .footer__name {
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+    text-align: center; }
+  .footer__social-media {
+    text-align: center; }
+    .footer__social-media a {
+      color: white;
+      display: inline-block;
+      font-size: 20px; }
+    .footer__social-media a:hover {
+      color: #00FFFF; }
+
+.projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 50px; }
+  .projects-container__card {
+    font-family: sans-serif;
+    width: 25%;
+    height: 500px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid plum;
+    padding: 5px; }
+    .projects-container__card h3,
+    .projects-container__card p {
+      margin-top: 10px; }
+    .projects-container__card a {
+      color: palevioletred;
+      text-decoration: none;
+      margin-top: 10px; }
+    .projects-container__card a:hover {
+      text-decoration: underline;
+      color: plum; }
+    .projects-container__card img {
+      max-width: 100%;
+      max-height: 70%; }
+
+.btn, .container-btn {
+  width: 200px;
+  height: 20px;
+  background-color: rgba(32, 178, 171, 0.795);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  border: 1px solid rgba(32, 178, 171, 0.795); }
+  .btn__github {
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; }
+  .btn__github:hover {
+    text-decoration: underline; }
+
+.projects {
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center; }
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-flow: row nowrap; }
+  .project-container__card-main {
+    height: auto;
+    width: 500px;
+    border: 1px solid plum;
+    padding: 5px;
+    text-align: center; }
+    .project-container__card-main a {
+      color: palevioletred;
+      text-decoration: none; }
+    .project-container__card-main a:hover {
+      color: plum;
+      text-decoration: underline; }
+    .project-container__card-main .proj-img-cont1 {
+      background-image: url(../img/weather-react-app.png); }
+    .project-container__card-main .proj-img-cont2 {
+      background-image: url(../img/memory-game.png); }
+    .project-container__card-main .proj-img-cont3 {
+      background-image: url(../img/landing-project.png); }
+    .project-container__card-main .cards {
+      height: 500px;
+      width: 500px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+
+#cardOne,
+#cardTwo {
+  margin-right: 20px; }
+
+.container-btn {
+  margin-top: 20px !important; }
+  .container-btn__btn-all {
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; }
+  .container-btn__btn-all:hover {
+    text-decoration: underline; }
+
+.about {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+  .about__me {
+    width: 40%;
+    height: 50%; }
+    .about__me img {
+      max-width: 80%;
+      max-height: 80%;
+      border-radius: 10px;
+      border: 1px solid plum;
+      margin-left: 50px;
+      margin-bottom: 20px; }
+  .about__me:hover {
+    animation: imgzoom 1s; }
+  .about__description {
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    margin-right: 10px; }
+    .about__description h2 {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 35px; }
+    .about__description p {
+      font-family: monospace;
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-right: 0; }
+
+@keyframes imgzoom {
+  from {
+    transform: translate(0); }
+  to {
+    transform: translate(5px, -5px); } }
+
+.skill-table {
+  width: 70%;
+  height: 57.4vh;
+  box-sizing: border-box;
+  font-family: monospace;
+  margin: 0 auto; }
+  .skill-table h2 {
+    font-family: "Indie Flower", cursive;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+    text-decoration: underline; }
+  .skill-table h3 {
+    font-size: 20px; }
+
+.skill-container {
+  width: 100%;
+  background-color: #ddd;
+  height: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 20px; }
+  .skill-container .bar {
+    animation: bar 4s ease; }
+
+@keyframes bar {
+  from {
+    width: 0; } }
+
+.html-bar {
+  width: 80%;
+  background-color: rgba(32, 178, 171, 0.795); }
+
+.css-bar,
+.javascript-bar {
+  width: 70%;
+  background-color: rgba(32, 178, 171, 0.795); }
+
+.react-bar,
+.sass-bar {
+  width: 30%;
+  background-color: rgba(32, 178, 171, 0.795); }
+
+.api-bar {
+  width: 50%;
+  background-color: rgba(32, 178, 171, 0.795); }
+
+.bootstrap-bar,
+.wordpress-bar {
+  width: 60%;
+  background-color: rgba(32, 178, 171, 0.795); }
+
+.projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 50px; }
+  .projects-container__card {
+    font-family: sans-serif;
+    width: 25%;
+    height: 500px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid plum;
+    padding: 5px; }
+    .projects-container__card h3,
+    .projects-container__card p {
+      margin-top: 10px; }
+    .projects-container__card a {
+      color: palevioletred;
+      text-decoration: none;
+      margin-top: 10px; }
+    .projects-container__card a:hover {
+      text-decoration: underline;
+      color: plum; }
+    .projects-container__card img {
+      max-width: 100%;
+      max-height: 70%; }
+
+.btn, .container-btn {
+  width: 200px;
+  height: 20px;
+  background-color: rgba(32, 178, 171, 0.795);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  border: 1px solid rgba(32, 178, 171, 0.795); }
+  .btn__github {
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; }
+  .btn__github:hover {
+    text-decoration: underline; }
+
+.projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 50px; }
+  .projects-container__card {
+    font-family: sans-serif;
+    width: 25%;
+    height: 500px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid plum;
+    padding: 5px; }
+    .projects-container__card h3,
+    .projects-container__card p {
+      margin-top: 10px; }
+    .projects-container__card a {
+      color: palevioletred;
+      text-decoration: none;
+      margin-top: 10px; }
+    .projects-container__card a:hover {
+      text-decoration: underline;
+      color: plum; }
+    .projects-container__card img {
+      max-width: 100%;
+      max-height: 70%; }
+
+.btn, .container-btn {
+  width: 200px;
+  height: 20px;
+  background-color: rgba(32, 178, 171, 0.795);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: monospace;
+  font-weight: bold;
+  border: 1px solid rgba(32, 178, 171, 0.795); }
+  .btn__github {
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; }
+  .btn__github:hover {
+    text-decoration: underline; }
+
+.contact-form {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 80px; }
+
+.contact-title {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  text-decoration: underline; }
+
+#contact-form {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  font-family: monospace; }
+
+label {
+  font-size: 16px; }
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+fieldset {
+  padding: 5px;
+  border-color: rgba(32, 178, 171, 0.795); }
+
+input[type=submit],
+input[type=reset] {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: lightseagreen;
+  border: 1px solid snow;
+  border-radius: 5px;
+  color: white; }
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background-color: rgba(32, 178, 171, 0.795); }
+
+/* RESPONSIVE TABLET L*/
+@media only screen and (max-width: 1024px) {
+  .projects {
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center; }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-flow: column wrap; }
+    .project-container__card-main {
+      height: auto;
+      width: 500px;
+      margin-bottom: 10px; }
+    .project-container__cards {
+      height: 500px;
+      width: 500px; }
+  #cardOne,
+  #cardTwo {
+    margin-right: 0; }
+  /* ABOUT PAGE  */
+  .about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .about__me {
+      width: 100%;
+      height: 100%; }
+      .about__me img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+        border: 1px solid plum;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px; }
+    .about__me:hover {
+      animation: none; }
+    .about__description {
+      width: 80%;
+      height: 100%; }
+      .about__description h2 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 35px; }
+      .about__description p {
+        font-family: monospace;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-right: 0; }
+  /* SKILL PAGE */
+  .skill-table {
+    height: 70vh; }
+    .skill-table h1 {
+      margin-bottom: 20px; }
+  /* PROJECTS PAGE */
+  .projects-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center; }
+    .projects-container__card {
+      font-family: monospace;
+      width: 80%;
+      height: 500px;
+      margin-bottom: 10px;
+      text-align: center;
+      border: 1px solid plum;
+      padding: 5px; }
+      .projects-container__card h3 {
+        font-size: 20px; }
+      .projects-container__card p,
+      .projects-container__card a {
+        font-size: 15px; }
+      .projects-container__card a {
+        margin-top: 20px; }
+  /* Contact Page */
+  .contact-title {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-bottom: 5px; }
+  #contact-form {
+    width: 80%;
+    font-family: monospace; }
+    #contact-form input[type=text],
+    #contact-form input[type=email] {
+      width: 100%; }
+    #contact-form textarea {
+      margin-left: 0;
+      width: 100%; }
+    #contact-form label {
+      font-size: 16px; }
+  /* FOOTER */
+  footer {
+    height: 10vh; } }
+
+/* RESPONSIVE TABLET */
+@media only screen and (max-width: 768px) {
+  .projects {
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center; }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-flow: column wrap; }
+    .project-container__card-main {
+      height: auto;
+      width: 500px;
+      margin-bottom: 10px; }
+    .project-container__cards {
+      height: 500px;
+      width: 500px; }
+  #cardOne,
+  #cardTwo {
+    margin-right: 0; }
+  /* ABOUT PAGE  */
+  .about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .about__me {
+      width: 100%;
+      height: 100%; }
+      .about__me img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+        border: 1px solid plum;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px; }
+    .about__me:hover {
+      animation: none; }
+    .about__description {
+      width: 80%;
+      height: 100%; }
+      .about__description h2 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 35px; }
+      .about__description p {
+        font-family: monospace;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-right: 0; }
+  /* SKILL PAGE */
+  .skill-table {
+    height: 70vh; }
+    .skill-table h1 {
+      margin-bottom: 20px; }
+  /* PROJECTS PAGE */
+  .projects-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center; }
+    .projects-container__card {
+      font-family: monospace;
+      width: 80%;
+      height: 500px;
+      margin-bottom: 10px;
+      text-align: center;
+      border: 1px solid plum;
+      padding: 5px; }
+      .projects-container__card h3 {
+        font-size: 20px; }
+      .projects-container__card p,
+      .projects-container__card a {
+        font-size: 15px; }
+      .projects-container__card a {
+        margin-top: 20px; }
+  /* Contact Page */
+  .contact-title {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-bottom: 5px; }
+  .contact-form {
+    width: 100%;
+    font-family: monospace; }
+    .contact-form input[type=text],
+    .contact-form input[type=email] {
+      width: 100%; }
+    .contact-form textarea {
+      margin-left: 0px;
+      width: 100%; }
+    .contact-form label {
+      font-size: 16px; }
+  /* FOOTER */
+  footer {
+    height: 10vh; } }
+
+/* RESPONSIVE MOVIL  */
+@media only screen and (max-width: 480px) {
+  /* HEADER */
+  .head {
+    margin: 100px 0; }
+    .head__name {
+      font-size: 30px; }
+    .head__item {
+      font-size: 15px;
+      padding: 10px; }
+      .head__item a:hover {
+        font-size: 19px; }
+  /*Home Page  */
+  .projects {
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center; }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-flow: column wrap; }
+    .project-container__card-main {
+      width: 300px;
+      height: auto;
+      margin-bottom: 10px; }
+      .project-container__card-main .cards {
+        width: 300px;
+        height: 300px; }
+      .project-container__card-main h3 {
+        font-size: 18px; }
+    .project-container #cardOne,
+    .project-container #cardTwo {
+      margin-right: 0; }
+  /* ABOUT PAGE  */
+  .about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .about__me {
+      width: 100%;
+      height: 100%; }
+      .about__me img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+        border: 1px solid plum;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px; }
+    .about__me:hover {
+      animation: none; }
+    .about__description {
+      width: 80%;
+      height: 100%; }
+      .about__description h2 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 35px; }
+      .about__description p {
+        font-family: monospace;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-right: 0; }
+  /* Skills Page */
+  .skill-table {
+    height: 70vh; }
+    .skill-table h1 {
+      font-size: 25px;
+      margin-bottom: 14px; }
+    .skill-table h3 {
+      font-size: 20px; }
+  /* PROJECTS PAGE */
+  .projects-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center; }
+    .projects-container__card {
+      font-family: monospace;
+      width: 80%;
+      height: 500px;
+      margin-bottom: 10px;
+      text-align: center;
+      border: 1px solid plum;
+      padding: 5px; }
+      .projects-container__card h3 {
+        font-size: 20px; }
+      .projects-container__card p,
+      .projects-container__card a {
+        font-size: 15px; }
+      .projects-container__card a {
+        margin-top: 20px; }
+  /* Contact Page */
+  .contact-title {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-bottom: 5px; }
+  .contact-form {
+    width: 100%;
+    font-family: monospace; }
+    .contact-form label {
+      font-size: 16px; }
+    .contact-form textarea {
+      margin-left: 0;
+      width: 100%; }
+    .contact-form input[type=text],
+    .contact-form input[type=email] {
+      width: 100%; }
+  /* FOOTER */
+  footer {
+    height: 10vh; } }
+
+@media screen and (max-width: 320px) {
+  /* HEADER */
+  .head {
+    margin: 100px 0; }
+    .head__logo {
+      width: 70px;
+      height: 70px; }
+    .head__name {
+      font-size: 30px; }
+    .head__item {
+      font-size: 13px;
+      padding: 10px; }
+      .head__item a:hover {
+        font-size: 13px; }
+  /*Home Page  */
+  .projects {
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center; }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-flow: column wrap; }
+    .project-container__card-main {
+      width: 300px;
+      height: auto;
+      margin-bottom: 10px; }
+      .project-container__card-main .cards {
+        width: 300px;
+        height: 300px; }
+      .project-container__card-main h3 {
+        font-size: 18px; }
+    .project-container #cardOne,
+    .project-container #cardTwo {
+      margin-right: 0; }
+  /* ABOUT PAGE  */
+  .about {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .about__me {
+      width: 100%;
+      height: 100%; }
+      .about__me img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 10px;
+        border: 1px solid plum;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px; }
+    .about__me:hover {
+      animation: none; }
+    .about__description {
+      width: 80%;
+      height: 100%; }
+      .about__description h2 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 35px; }
+      .about__description p {
+        font-family: monospace;
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-right: 0; }
+  /* Skills Page */
+  .skill-table {
+    height: 70vh; }
+    .skill-table h1 {
+      font-size: 25px;
+      margin-bottom: 14px; }
+    .skill-table h3 {
+      font-size: 20px; }
+  /* PROJECTS PAGE */
+  .projects-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center; }
+    .projects-container__card {
+      font-family: monospace;
+      width: 80%;
+      height: 500px;
+      margin-bottom: 10px;
+      text-align: center;
+      border: 1px solid plum;
+      padding: 5px; }
+      .projects-container__card h3 {
+        font-size: 20px; }
+      .projects-container__card p,
+      .projects-container__card a {
+        font-size: 15px; }
+      .projects-container__card a {
+        margin-top: 20px; }
+  /* Contact Page */
+  .contact-title {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 30px; }
+  .contact-form {
+    width: 100%;
+    font-family: monospace; }
+    .contact-form label {
+      font-size: 16px; }
+    .contact-form textarea {
+      margin-left: 0;
+      width: 100%; }
+    .contact-form input[type=text],
+    .contact-form input[type=email] {
+      width: 100%; }
+  /* FOOTER */
+  footer {
+    height: 9vh; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Indie Flower", cursive; }
