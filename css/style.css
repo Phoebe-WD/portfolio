@@ -399,6 +399,33 @@ input[type=submit]:hover,
 input[type=reset]:hover {
   background-color: rgba(32, 178, 171, 0.795); }
 
+/* RESPONSIVE  LAPTOP */
+@media only screen and (max-width: 1600px) {
+  .projects {
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center; }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    flex-flow: row wrap; }
+    .project-container__card-main {
+      height: auto;
+      width: 500px;
+      margin-bottom: 10px; }
+    .project-container__cards {
+      height: 500px;
+      width: 500px;
+      background-size: contain;
+      background-position: center; }
+  .skill-table {
+    height: 70vh; }
+    .skill-table h1 {
+      margin-bottom: 20px; } }
+
 /* RESPONSIVE TABLET L*/
 @media only screen and (max-width: 1024px) {
   .projects {
