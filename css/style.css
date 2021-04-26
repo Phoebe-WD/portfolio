@@ -379,8 +379,8 @@ fieldset {
 input[type=submit],
 input[type=reset] {
   display: inline-block;
-  width: 60px;
   height: 30px;
+  width: 60px;
   background-color: lightseagreen;
   border: 1px solid snow;
   border-radius: 5px;

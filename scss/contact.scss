@@ -1,6 +1,11 @@
 @import 'variables.scss';
 @import 'projects.scss';
 
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
 // CONTACT PAGE
 
 .contact-form {
@@ -49,8 +54,7 @@ fieldset {
 input[type=submit],
 input[type=reset] {
     display: inline-block;
-    width: 60px;
-    height: 30px;
+    @include sizes(60px, 30px);
     background-color: lightseagreen;
     border: 1px solid snow;
     border-radius: 5px;
