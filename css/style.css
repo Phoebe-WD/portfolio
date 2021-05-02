@@ -497,7 +497,7 @@ input[type=reset]:hover {
     .projects-container__card {
       font-family: monospace;
       width: 80%;
-      height: 500px;
+      height: auto;
       margin-bottom: 10px;
       text-align: center;
       border: 1px solid plum;
@@ -600,7 +600,7 @@ input[type=reset]:hover {
     .projects-container__card {
       font-family: monospace;
       width: 80%;
-      height: 500px;
+      height: auto;
       margin-bottom: 10px;
       text-align: center;
       border: 1px solid plum;
@@ -719,7 +719,7 @@ input[type=reset]:hover {
     .projects-container__card {
       font-family: monospace;
       width: 80%;
-      height: 500px;
+      height: auto;
       margin-bottom: 10px;
       text-align: center;
       border: 1px solid plum;
@@ -815,7 +815,7 @@ input[type=reset]:hover {
       .about__description h2 {
         margin-bottom: 10px;
         text-align: center;
-        font-size: 35px; }
+        font-size: 25px; }
       .about__description p {
         font-family: monospace;
         font-size: 18px;
@@ -840,7 +840,7 @@ input[type=reset]:hover {
     .projects-container__card {
       font-family: monospace;
       width: 80%;
-      height: 500px;
+      height: auto;
       margin-bottom: 10px;
       text-align: center;
       border: 1px solid plum;
