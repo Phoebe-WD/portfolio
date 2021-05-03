@@ -239,12 +239,12 @@ body {
   width: 70%;
   background-color: rgba(32, 178, 171, 0.795); }
 
-.react-bar,
-.sass-bar {
+.react-bar {
   width: 30%;
   background-color: rgba(32, 178, 171, 0.795); }
 
-.api-bar {
+.api-bar,
+.sass-bar {
   width: 50%;
   background-color: rgba(32, 178, 171, 0.795); }
 
