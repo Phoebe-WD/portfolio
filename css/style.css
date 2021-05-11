@@ -74,8 +74,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     border: 1px solid plum;
-    padding: 5px;
-    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
+    padding: 5px; }
     .projects-container__card h3,
     .projects-container__card p {
       margin-top: 10px; }
@@ -89,6 +88,8 @@ body {
     .projects-container__card img {
       max-width: 100%;
       max-height: 70%; }
+  .projects-container__card:hover {
+    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
 
 .btn, .container-btn {
   width: 200px;
@@ -125,7 +126,6 @@ body {
     height: auto;
     width: 500px;
     border: 1px solid plum;
-    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3);
     padding: 5px;
     text-align: center; }
     .project-container__card-main a {
@@ -146,6 +146,8 @@ body {
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
+  .project-container__card-main:hover {
+    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
 
 #cardOne,
 #cardTwo {
@@ -268,8 +270,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     border: 1px solid plum;
-    padding: 5px;
-    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
+    padding: 5px; }
     .projects-container__card h3,
     .projects-container__card p {
       margin-top: 10px; }
@@ -283,6 +284,8 @@ body {
     .projects-container__card img {
       max-width: 100%;
       max-height: 70%; }
+  .projects-container__card:hover {
+    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
 
 .btn, .container-btn {
   width: 200px;
@@ -317,8 +320,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     border: 1px solid plum;
-    padding: 5px;
-    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
+    padding: 5px; }
     .projects-container__card h3,
     .projects-container__card p {
       margin-top: 10px; }
@@ -332,6 +334,8 @@ body {
     .projects-container__card img {
       max-width: 100%;
       max-height: 70%; }
+  .projects-container__card:hover {
+    box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3); }
 
 .btn, .container-btn {
   width: 200px;
