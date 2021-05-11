@@ -18,7 +18,7 @@
         text-align: center;
         border: 1px solid plum;
         padding: 5px;
-        box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3);
+    
 
         h3,
         p {
@@ -40,6 +40,9 @@
             max-width: 100%;
             max-height: 70%;
         }
+    }
+    &__card:hover{
+        box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.3);
     }
 }
 
