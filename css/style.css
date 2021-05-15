@@ -207,7 +207,8 @@ body {
   height: auto;
   box-sizing: border-box;
   font-family: monospace;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-bottom: 50px; }
   .skill-table h2 {
     font-family: "Indie Flower", cursive;
     font-size: 30px;
